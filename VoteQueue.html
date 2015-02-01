@@ -15,11 +15,10 @@
 
 </head>
 <body>
-	<div id="header">
-		<img src="./img/sf.jpg"/
-	</div>
-
-	<div class="container">
+<div class="container">
+	<header>
+		<img src="./img/sf.jpg"/> 
+	</header>
 		<div class="jumbotron">
 
 			<div id="navbar"><button><a href="AdminHomePage.html"><img src="./img/navbutton.png"></a></button></div>
@@ -31,19 +30,19 @@
   <tr>
     <td><button class="ss">Insurance for employees</button></td>
     <td><button class="s">send</button></td>	
-    <td><button class="ss" onclick="location.href='CreatVote.html'">edit</button></td>	
+    <td><button class="ss" onclick="location.href='CreateVote.html'">edit</button></td>	
     
   </tr>
   <tr>
     <td><button class="ss">New locatoion of office</button></td>
     <td><button class="s">send</button></td>
-    <td><button class="ss" onclick="location.href='CreatVote.html'">edit</button></td>		
+    <td><button class="ss" onclick="location.href='CreateVote.html'">edit</button></td>		
 			</div>
 
 			<script>
 			$(document).ready(function(){
 			    $('.s').click(function(){
-			      confirm("Are you sure that you want to sent out the vote ?");
+			      confirm("Are you sure that you want to send out this vote?");
 					});
 				});
 

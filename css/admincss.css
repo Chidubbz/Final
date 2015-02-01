@@ -7,6 +7,11 @@ ol { font-family: 'Arial', Helvetica, sans-serif; }
 li { font-family: 'Arial', Helvetica, sans-serif; }
 a{color: #123456;}
 
+html {
+	height: 100%;
+	background-color: #123456;
+}
+
 body{
 	height: 100%;
 	margin:auto;
@@ -15,27 +20,22 @@ body{
 }
 ul {
 	display: block;
-list-style-type: disc;
--webkit-margin-before: 0;
--webkit-margin-after: 0;
--webkit-margin-start: 0;
--webkit-margin-end: 0;
--webkit-padding-start: 0;
-
-background-size: 100% 100%;
-		display: inline-block;
-		margin: 0 auto;	
-	}
+	list-style-type: disc;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+	-webkit-padding-start: 0;
+	background-size: 100% 100%;
+			display: inline-block;
+			margin: 0 auto;	
+}
 
 .jumbotron{
-	height: 100%;
+	height: initial;
 	margin-top: 0;
 }
 
-html {
-	height: 100%;
-	background-color: #123456;
-}
 #login {/*
 	background: url(Home.jpg) no-repeat 0 0;*/
 	width: 100%;
@@ -51,7 +51,7 @@ header {
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #fff;
-	margin-bottom: 15px;
+	margin-bottom: 5px;
 }
 h1 {
 	margin: 50px 0 20px;
@@ -136,8 +136,9 @@ div li button {
 	width: 98%;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #E0E0EB;
-	height: 100%;
+/*	background-color: #E0E0EB;*/
+	background-color: #fff;
+	height: initial;
 }
 .container-fluid {
 	height: 100%;
@@ -198,11 +199,10 @@ li {
 button{display: list-item;}
 
 #results{
-	float: left;
+	align: center;
 	width: 100%;
 	text-align: left;
 	margin: 55px 0 0;
-
 }
 #results div{
 	text-align: center;
@@ -275,8 +275,7 @@ button.s:hover{
 	text-decoration: none;
 }
 #table{
-
-	height: 100px;
+	height: 150px;
 	overflow-y: scroll;
 }
 
@@ -437,7 +436,6 @@ ul#mainmenu {
 		}
 
 	#tfnewsearch{
-		
 		float:right;
 		padding:20px;
 	}
