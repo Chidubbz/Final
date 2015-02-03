@@ -196,7 +196,11 @@ li {
 	background-color:#fff;
 	color:#123456; 
 }
-button{display: list-item;}
+button{
+	display: list-item;
+	height: 50px;
+
+}
 
 #results{
 	align: center;
