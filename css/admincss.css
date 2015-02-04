@@ -342,6 +342,26 @@ img{
 	font-weight: bold;
 }
 
+.button2 {
+    width: 200px;
+	background-color: #ccc;
+	color: #fff;
+	border:1px outset;
+	margin: 0 auto;
+	border-radius: 10px;
+	font-weight: bold;
+}
+
+.button3 {
+    width: 60px;
+	background-color: #123456;
+	color: #fff;
+	border:1px outset;
+	margin: 0 auto;
+	border-radius: 10px;
+	font-weight: bold;
+}
+
 #button3 {
     width: 100%;
 	background-color: #123456;
