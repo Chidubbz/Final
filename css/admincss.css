@@ -69,6 +69,9 @@ ul {
 	border-radius: 5px;
 	width: 25%;
 }
+.livevote .inline .button3 {
+	color: #ff0000;
+}
 #login {
 	position:relative;
 	top: 100px;
@@ -570,6 +573,9 @@ ul {
 .jumbotron{
 	height: initial;
 	margin-top: 0;
+}
+.livevote .inline button {
+	width: 45%;
 }
 /*
 #login {
