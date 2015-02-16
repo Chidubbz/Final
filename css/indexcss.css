@@ -1,11 +1,7 @@
 body {
-<<<<<<< HEAD
 	
 	background: url("./img/Home.jpg");
 	text-align: center;
-=======
-	background: #f1f0d1;
->>>>>>> 08d701d05afcb14ab8a5f6b266a343a2d2cdfb6e
 	font-family: Verdana, Tahoma, Arial, sans-serif;
 	font-size: 18px;
 	overflow: auto;
@@ -15,7 +11,6 @@ body {
 	margin: 0 auto;
 	max-width: 1020px;
 	width: 98%;
-<<<<<<< HEAD
 	border: none;
 	border-radius: 2px;
 	background: none;
@@ -25,12 +20,6 @@ body {
 }
 #wrapper img {
 	opacity: 0.8;
-=======
-	background: #000000;
-	border: none;
-	border-radius: 2px;
-	box-shadow: 0 0 10px 0px rgba(12, 3, 25, 0.8);
->>>>>>> 08d701d05afcb14ab8a5f6b266a343a2d2cdfb6e
 }
 header {
 	width: 96%;
@@ -38,8 +27,8 @@ header {
 	padding: 5px;
 	text-align: center;
 }
-<<<<<<< HEAD
 #login form input {
+	top:80px;
 	font-size: 25px;
 	text-align: center;
 	width: 50%;
@@ -51,120 +40,32 @@ header {
 	opacity:1;
 }
 
-=======
-nav ul {
-	list-style-type:none;
-	margin: 0;
-	padding-left: 50px;
-}
-nav ul li {
-	list-style: none;
-	text-align: center;
-	border: none;
-	width:17%;
-}	
-nav ul li a {
-	background: #000000;
-	display: block;
-	padding: 10px 10px;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	font-weight: bold;
-	font-size: 18px;
-	color: white;
-	text-decoration: none;
-	text-align: center;
-}
-nav ul li a:hover, nav ul li.active a, nav ul li:visited {
-	background-color: #99ff99;
-	color: #0066FF;
-	border-radius: 15%;
-}
-.banner {
-	max-width: 96%;
-	padding: 5px;
-	margin: 0 auto;
-	text-align: center;
-}
-.banner img {
-	width: 80%;
-	border-top: 1px solid #878E63;
-	border-bottom: 1px solid #878E63;
-}
-#AdminHomePage {
-	display: block;
-	width: 250px;
-}
-
-#ara {
-	position: relative;
-	background-color:gradient;
-	width: 100%;
-}
-
-button:hover {
-    opacity:1.0;
-	color: blue;
-}
-
-.create {
-	width: 300px;
-	background-image: url("./img/logo.png");
-	align: center;
-}
-
-.create background-image {
-	display:block;
-	width: 250px;
-}
-
-.menubutton {
-	border-radius:25%;
-	text-align:center;
-	width:250px;
-	height: 70px;
-	opacity:0.80;
-	background-color:#00CCFF;
-}
-
-.election {
-	text-align: center;
-	width: 90%;
-	display: inline-block;
-	padding-top: 2.5%;
-	margin: 0 auto;
-}
->>>>>>> 08d701d05afcb14ab8a5f6b266a343a2d2cdfb6e
 #login {
 	position:relative;
-	top: 100px;
+	top: 80px;
 	margin: 0 auto;
 	border:10px 10px 10px 10px;
 	height:50px 50px 50px 50px;
 }
-<<<<<<< HEAD
-=======
-header {
-	text-align: center;
-}
->>>>>>> 08d701d05afcb14ab8a5f6b266a343a2d2cdfb6e
+div ul li {
+	list-style-type:none;
+}	
 header ul li {
 	display:inline-block;
 	padding-left: 5px;
 	padding-right: 5px;
 }
-<<<<<<< HEAD
 
 
 
 /*--------------------------MEDIA!!!-----------------*/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 479px) {
 	body {
-		background: url ("./img/Home.jpg");
+		background: url ("./img/Seyvote.png");
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: center; 
-		background-color: #000000;
+		/*background-color: #000000;*/
 		width: 100%;
 		margin: 0 auto;
 		background-size: 100%;
@@ -197,110 +98,3 @@ header ul li {
 		color: white;
 	}
 }
-=======
-li {
-	list-style-type: none;
-}
-
-#navbar {
-	align: center;
-	width: 100%;
-	background-color:black;
-	display: inline-block;
-	vertical-align;
-}
-
-#navbar img {
-	float: left;
-	height: 30px;
-	width: 30px;
-	display: inline;
-}
-
-#slide {
-	left: -200px;
-}
-.nav-toggle {
-	position: absolute;
-	top: 30px;
-	cursor: pointer;
-	display:none;
-}
-
-/*--------------------------MEDIA!!!-----------------*/
-@media screen and (max-width: 478px) {
-	body {
-		font-size: 13px;
-	}
-	.main-navigation {
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background: #222;
-		text-align: right;
-		transform: translateX(-100%);
-		transition: transform 0.6s ease;
-	}
-
-	.main-navigation.open {
-		transform: translateX(-50%);
-	}
-
-	.main-navigation .nav-toggle {
-		right: 5%;
-		top: 5%;
-	}
-	nav {
-		width: 100%;
-		margin-bottom: 10px;
-	}
-	nav ul li a {
-		padding: 8px;
-		font-size: 16px;
-	}
-	.nav-toggle {
-		position: absolute;
-		top: 30px;
-		cursor: pointer;
-		display: inline;
-	}
-}
-@media screen and (min-width: 479px)
-			  and (max-width: 740px) {
-	nav {
-		width: 100%;
-		margin-bottom: 10px;
-	}
-	nav ul {
-		list-style-type: none;
-		margin: 0 auto;
-		padding-left: 0;
-	}
-	nav ul li {
-		text-align: center;
-		margin-left: 0 auto;
-		width: 100%;
-		border-top: 1px solid;
-		border-bottom: 1px solid;
-	}
-	nav ul li a {
-		font-size: 16px;
-		background: #000000;
-		display: block;
-		margin-bottom: 0px;
-	}
-	nav ul li a:hover, nav ul li.active a, nav ul li:visited {
-		background-color: #99ff99;
-		color: #0066FF;
-		border-radius: 15%;
-	}
-	.nav-toggle {
-		position: absolute;
-		top: 30px;
-		cursor: pointer;/*
-		display: none;*/
-	}
-}	
->>>>>>> 08d701d05afcb14ab8a5f6b266a343a2d2cdfb6e
