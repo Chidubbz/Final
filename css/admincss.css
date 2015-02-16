@@ -64,9 +64,10 @@ ul {
 }
 .livevote .inline button {
 	display: inline !important;
-	color: black;
+	color: #fff;
 	background-color: #123456;
 	border-radius: 5px;
+	width: 25%;
 }
 #login {
 	position:relative;
