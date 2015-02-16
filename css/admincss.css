@@ -420,6 +420,7 @@ ul#mainmenu {
 
 		ul#mainmenu li {
 			width: 30px;
+			margin-right: 2px;
 			display: inline-block;
 			position: relative;
 			background:grey;
@@ -728,8 +729,6 @@ div li button {
 	display:inline-block;
 }
 
-
-
 li {
 	list-style-type:none;
 }
@@ -961,7 +960,10 @@ ul#mainmenu {
 		ul#mainmenu li:hover {
 			background: #ccc ;
 		}
-
+		ul#mainmenu li a {
+			width:inherit;
+			height:inherit;
+		}
 		ul#mainmenu li a:hover {
 			color: grey;
 			font-weight: bolder;
@@ -1422,7 +1424,7 @@ input{
 
 .form-control{
 	font-size: 12px !important;
-	color: #ccc !important;
+	color: #000 !important;
 }
 
 .jumbotron h1{
