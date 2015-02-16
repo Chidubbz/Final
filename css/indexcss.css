@@ -59,9 +59,9 @@ header ul li {
 
 
 /*--------------------------MEDIA!!!-----------------*/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 479px) {
 	body {
-		background: url ("./img/Seyvote.png");
+		background: url("./img/Seyvote.png");
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: center; 
@@ -86,14 +86,14 @@ header ul li {
 	#wrapper h1{
 		display: none;
 	}
-	#wrapper h2 {
+	#wrapper div h2 {
 		display: inline;
 	}
 	#wrapper img {
 		opacity: 1;		
 		display: none;
 	}
-	h2 {
+	div h2 {
 		top: 550px;
 		color: white;
 	}

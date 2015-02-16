@@ -14,6 +14,11 @@
 body {
 	background: url("./img/Home.jpg");
 	text-align: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	height: 100%;
+	background-size: cover;
 }
 #wrapper {
 	background: none;
@@ -23,7 +28,7 @@ body {
 	box-shadow:none;
 }
 #wrapper img {
-	opacity: 0.8;
+	opacity: 1;
 }
 #wrapper h2 {
 	display: none;
@@ -37,14 +42,14 @@ body {
 	width: 50%;
 	height: 50px;
 	margin: 0 auto 5px auto;
-	opacity: 0.8;
+	opacity: 0.9;
 }
 #login form input.submit {
 	opacity:1;
 }
 
 /*--------------------------MEDIA!!!-----------------*/
-@media only screen and (min-width: 300px) and (max-width: 800px) {
+@media only screen and (min-width: 200px) and (max-width: 479px) {
 	body {
 		background: url ("./img/Seyvote.png") !important;
 		background-repeat: no-repeat;
@@ -79,7 +84,7 @@ body {
 	}
 	#wrapper img {
 		opacity: 1;		
-		display: none;
+		
 	}
 	h2 {
 		top: 550px;
@@ -92,9 +97,7 @@ body {
 <center>
 <body>
 <div id="wrapper">
-	<h1 style="font: blue"> Welcome to Seyvote </h1><!-- For Desktops Only -->
-	
-	<img src="./img/seyvote.png"></img>
+	<h1 style="font: blue"> <img src="./img/seyvote.png"></img> </h1> <!---For Desktops Only -->
 <div> <h2 style="font-color: blue"> Seyvote </h2></div><!-- For Tablets and Phones Only -->
 </div>
 
@@ -110,6 +113,7 @@ body {
 		</ul>  
 	</form>
 </div>
+
 
 <script type="text/javascript">
 	
