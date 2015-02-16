@@ -28,14 +28,10 @@ ul{
 }
 
 .ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
-	background: #fff !important;
+	background: #123456 !important;
 }
 
 
-.jumbotron{
-	width: 100%;
-	margin-top: 0;
-}
 
 /*login page and in put*/
 

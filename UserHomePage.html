@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-		
+		<link rel="icon" type="image/ico" href="./img/seyvote.ico.png"/>
+		<link rel="shortcut icon" href="./img/seyvote.ico.png" />
 		<title>User Home</title>
 		<meta charset="utf-8">
 	  	<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="./css/grid.css" rel="stylesheet" />
 		<link href="./css/bootstrap.css" rel="stylesheet" />
-	
-
-
-
+		<link href="./css/admincss.css" rel="stylesheet" />
 
 </head>
 <body>
@@ -20,35 +18,32 @@
 
 
 
-
-	<div id="header">
+<div class="container">
+	<header>
 		<img src="./img/sf.jpg"/>
-			<div class="div"></div></div>
+			<div class="div"></div>
+	</header>
 			
-
-	<div id="container">
-<div class="jumbotron">
-	<div class="line">
-
-		<a onclick="window.location.href='index.html'" class="ui-btn ui-corner-all ui-icon-delete ui-btn-icon-notext">Delete Icon</a>
-	</div>
-	
+<div class="jumbotron">	
 <!-- 
 	<div class="div"></div>
  -->
 	<div id="voting">
 		<div class="numberCircle">
-    <div class="height_fix"></div>
-    <div class="content">2 </div>
-</div>
+			<div class="height_fix"></div>
+			<div class="content">2 </div>
+		</div>
 	</div>
-	<button onclick="window.location.href='uexyesno.html'">Donuts</button>
-	<button onclick="window.location.href='uexyesno.html'">Insurance</button>
-		<div class="numberCircle">
-     <div class="height_fix"></div> 
+		<button onclick="window.location.href='uexyesno.html'">Donuts</button>
+		<button onclick="window.location.href='uexyesno.html'">Insurance</button>
+	<div class="numberCircle">
+    <div class="height_fix"></div> 
     <div class="content">1</div>
-</div>
+   </div>
 	<button onclick="window.location.href='voting.html'">New CEO</button>
+	<div class="line">
+		<a onclick="window.location.href='index.html'" class="ui-btn ui-corner-all ui-icon-delete ui-btn-icon-notext"></a><br><p>Log Out</p>
+	</div>
 	
 	
 	<script type="text/javascript" src="main.js"></script>
@@ -57,6 +52,7 @@
 	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 
+</div>
 </div>
 </body>
 </html>

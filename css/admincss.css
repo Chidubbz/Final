@@ -62,6 +62,12 @@ ul {
 #wrapper h2 {
 	display: none;
 }
+.livevote .inline button {
+	display: inline !important;
+	color: black;
+	background-color: #123456;
+	border-radius: 5px;
+}
 #login {
 	position:relative;
 	top: 100px;
@@ -115,7 +121,7 @@ nav ul li {
 }	
 nav ul li button {
 	top: 100px;
-	background: #000000;
+	background: #123456;
 	display: block;
 	padding: 10px 10px;
 	margin-bottom: 2px;
@@ -124,7 +130,6 @@ nav ul li button {
 	color: white;
 	text-decoration: none;
 	text-align: center;
-	opacity: 0.7;
 }
 nav ul li button:hover, nav ul li.active a, nav ul li:visited {
 	background-color: #ccc;
@@ -156,7 +161,6 @@ div li button {
 	border-radius:25px;
 	text-align:center;
 	width:100%;
-	opacity:0.80;
 }
 
 #election {
@@ -647,7 +651,7 @@ nav ul li {
 }	
 nav ul li button {
 	top: 100px;
-	background: #000000;
+	background: #123456;
 	display: block;
 	padding: 10px 10px;
 	margin-bottom: 2px;
@@ -656,7 +660,6 @@ nav ul li button {
 	color: white;
 	text-decoration: none;
 	text-align: center;
-	opacity: 0.7;
 }
 nav ul li button:hover, nav ul li.active a, nav ul li:visited {
 	background-color: #ccc;
@@ -688,7 +691,6 @@ div li button {
 	border-radius:25px;
 	text-align:center;
 	width:100%;
-	opacity:0.80;
 }
 
 #election {
@@ -1139,7 +1141,7 @@ nav ul li {
 }	
 nav ul li button {
 	top: 100px;
-	background: #000000;
+	background: #123456;
 	display: block;
 	padding: 10px 10px;
 	margin-bottom: 2px;
@@ -1148,7 +1150,6 @@ nav ul li button {
 	color: white;
 	text-decoration: none;
 	text-align: center;
-	opacity: 0.7;
 }
 nav ul li button:hover, nav ul li.active a, nav ul li:visited {
 	background-color: #ccc;
@@ -1180,7 +1181,6 @@ div li button {
 	border-radius:15px;
 	text-align:center;
 	width:100%;
-	opacity:0.80;
 }
 
 #election {
