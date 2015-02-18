@@ -1,6 +1,4 @@
-body {
-	
-	background: url("./img/Home.jpg");
+.body1 {
 	text-align: center;
 	font-family: Verdana, Tahoma, Arial, sans-serif;
 	font-size: 18px;
@@ -60,8 +58,7 @@ header ul li {
 
 /*--------------------------MEDIA!!!-----------------*/
 @media screen and (max-width: 479px) {
-	body {
-		background: url("./img/Seyvote.png");
+	/*.body2 {
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: center; 
@@ -70,7 +67,7 @@ header ul li {
 		margin: 0 auto;
 		background-size: 100%;
 		z-index: 5;
-	}
+	}*/
 	#login {
 		top: 250px;
 		margin: 0 auto;
